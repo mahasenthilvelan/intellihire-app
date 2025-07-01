@@ -1,8 +1,21 @@
 
 import streamlit as st
+import streamlit as st
+
+# Fallback install if missing
+try:
+    import pdfplumber
+except ImportError:
+    import os
+    os.system("pip install pdfplumber")
+    import pdfplumber
+
+import docx2txt
+import fitz
+import spacy
 import re
 import tempfile
-import pdfplumber
+import json
 import docx
 import textstat
 import subprocess
