@@ -1,6 +1,13 @@
-
 streamlit
 spacy
 pdfplumber
 docx
 textstat
+docx2txt
+pymupdf
+pymongo
+requests
+openai
+pyrebase
+pyngrok
+fitz  # optional, sometimes bundled under pymupdf
