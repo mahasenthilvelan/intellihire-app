@@ -2,13 +2,7 @@
 import streamlit as st
 import re
 import tempfile
-
-try:
-    import spacy
-except ImportError:
-    import os
-    os.system("pip install spacy")
-    import spacy
+import spacy
 
 try:
     import pdfplumber
