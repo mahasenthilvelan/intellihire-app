@@ -10,4 +10,3 @@ requests
 openai
 pyrebase
 pyngrok
-fitz  # optional, sometimes bundled under pymupdf
