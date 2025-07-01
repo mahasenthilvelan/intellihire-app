@@ -1,6 +1,0 @@
-streamlit
-pdfplumber
-docx
-spacy
-textstat
-openai
